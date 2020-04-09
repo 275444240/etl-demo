@@ -35,12 +35,12 @@ public class KafkaDemo {
     }
 
 
-    @KafkaListener(topics = "test")
-    public void listen(ConsumerRecord<?, ?> record) throws Exception {
-        System.out.printf("++++++++++++++++++++++++");
-        System.out.printf("topic = %s, offset = %s, value = %s \n", record.topic(), record.key(), record.value());
-        System.out.printf("++++++++++++++++++++++++");
-    }
+//    @KafkaListener(topics = "test")
+//    public void listen(ConsumerRecord<?, ?> record) throws Exception {
+//        System.out.printf("++++++++++++++++++++++++");
+//        System.out.printf("topic = %s, offset = %s, value = %s \n", record.topic(), record.key(), record.value());
+//        System.out.printf("++++++++++++++++++++++++");
+//    }
 
 
 
